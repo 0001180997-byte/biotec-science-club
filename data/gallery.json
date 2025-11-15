@@ -1,0 +1,24 @@
+{
+  "images": [
+    {
+      "title": "Visita à escola municipal",
+      "description": "Atividade prática com estudantes do ensino fundamental",
+      "image": "/placeholder.svg?height=400&width=400"
+    },
+    {
+      "title": "Experimento de Fotossíntese",
+      "description": "Demonstração do processo de fotossíntese",
+      "image": "/placeholder.svg?height=400&width=400"
+    },
+    {
+      "title": "Feira de Ciências 2023",
+      "description": "Evento anual com apresentação de projetos",
+      "image": "/placeholder.svg?height=400&width=400"
+    },
+    {
+      "title": "Workshop de Microscopia",
+      "description": "Estudantes aprendendo técnicas de observação microscópica",
+      "image": "/placeholder.svg?height=400&width=400"
+    }
+  ]
+}

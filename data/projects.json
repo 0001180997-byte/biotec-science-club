@@ -1,0 +1,28 @@
+{
+  "active": [
+    {
+      "title": "Ciência na Escola",
+      "description": "Levar experimentos científicos para escolas públicas da região.",
+      "category": "Extensão",
+      "image": "/placeholder.svg?height=300&width=400",
+      "startDate": "2024-03-01"
+    },
+    {
+      "title": "Feira de Ciências",
+      "description": "Organização anual de feira científica para estudantes de ensino médio.",
+      "category": "Evento",
+      "image": "/placeholder.svg?height=300&width=400",
+      "startDate": "2024-01-15"
+    }
+  ],
+  "completed": [
+    {
+      "title": "Workshop de Microscopia",
+      "description": "Série de workshops sobre técnicas de microscopia para estudantes.",
+      "category": "Ensino",
+      "image": "/placeholder.svg?height=300&width=400",
+      "startDate": "2023-08-01",
+      "endDate": "2023-12-15"
+    }
+  ]
+}

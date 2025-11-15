@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "A Importância da Divulgação Científica",
+      "excerpt": "Como a divulgação científica pode transformar a educação e aproximar a ciência da sociedade.",
+      "content": "A divulgação científica é fundamental para democratizar o acesso ao conhecimento...",
+      "author": "Prof. João Silva",
+      "date": "2024-01-15",
+      "image": "/placeholder.svg?height=400&width=600"
+    },
+    {
+      "id": "2",
+      "title": "Experiências Simples para Ensinar Biologia",
+      "excerpt": "Conheça experimentos práticos que podem ser feitos com materiais do dia a dia.",
+      "content": "A experimentação é uma das melhores formas de aprender ciências...",
+      "author": "Maria Santos",
+      "date": "2024-01-20",
+      "image": "/placeholder.svg?height=400&width=600"
+    }
+  ]
+}

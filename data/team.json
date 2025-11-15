@@ -1,0 +1,40 @@
+{
+  "members": [
+    {
+      "name": "Prof. Dr. Fernanda Costa",
+      "role": "Coordenadora Geral",
+      "bio": "Doutora em Biotecnologia com mais de 15 anos de experiência em pesquisa e ensino. Coordena as atividades do clube e orienta projetos de iniciação científica.",
+      "image": "/placeholder.svg?height=200&width=200"
+    },
+    {
+      "name": "Profa. Dra. Maria Fernanda Lima",
+      "role": "Vice-Coordenadora",
+      "bio": "Doutora em Ciências Biológicas com foco em Ecologia. Responsável pelas atividades de pesquisa e extensão do clube.",
+      "image": "/placeholder.svg?height=200&width=200"
+    },
+    {
+      "name": "Ana Carolina Silva",
+      "role": "Pesquisadora Bolsista",
+      "bio": "Mestranda em Ciências Biológicas, atua na divulgação científica e coordenação de projetos educativos.",
+      "image": "/placeholder.svg?height=200&width=200"
+    },
+    {
+      "name": "João Pedro Santos",
+      "role": "Pesquisador Bolsista",
+      "bio": "Graduando em Ciências Biológicas, desenvolve pesquisas na área de microbiologia e bioquímica.",
+      "image": "/placeholder.svg?height=200&width=200"
+    },
+    {
+      "name": "Mariana Oliveira",
+      "role": "Bolsista de Extensão",
+      "bio": "Graduanda responsável pelas ações de extensão e comunicação do clube com a comunidade.",
+      "image": "/placeholder.svg?height=200&width=200"
+    },
+    {
+      "name": "Lucas Ferreira",
+      "role": "Voluntário",
+      "bio": "Estudante de Biologia que auxilia nas atividades práticas e eventos do clube de ciências.",
+      "image": "/placeholder.svg?height=200&width=200"
+    }
+  ]
+}

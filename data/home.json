@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "badge": "UEMG",
+    "title": "Clube de Ciências BIOTEC",
+    "subtitle": "Pesquisa e Extensão em Ciências Biológicas"
+  },
+  "about": {
+    "title": "Sobre o Projeto",
+    "paragraphs": [
+      "O Clube de Ciências BIOTEC é um projeto de extensão da UEMG que visa promover a educação científica através de atividades práticas e teóricas.",
+      "Nosso objetivo é despertar o interesse pela ciência e formar cidadãos críticos através da experimentação e divulgação científica."
+    ]
+  }
+}
