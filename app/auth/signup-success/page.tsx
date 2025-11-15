@@ -1,0 +1,27 @@
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
+
+export default function SignupSuccessPage() {
+  return (
+    <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">
+      <div className="w-full max-w-sm">
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-2xl">Cadastro realizado!</CardTitle>
+            <CardDescription>Verifique seu email</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <p className="text-sm text-muted-foreground">
+              Enviamos um email de confirmação. Por favor, clique no link para ativar sua conta.
+            </p>
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  )
+}
