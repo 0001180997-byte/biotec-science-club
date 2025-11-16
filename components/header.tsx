@@ -4,25 +4,21 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Menu, X, Microscope } from 'lucide-react'
 import { Button } from '@/components/ui/button'
-import { LanguageSwitcher } from '@/components/language-switcher'
-import { UserMenu } from '@/components/user-menu'
-import { useI18n } from '@/lib/i18n/context'
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const { t } = useI18n()
 
   const navItems = [
-    { href: '/', label: t.nav.home },
-    { href: '/sobre', label: t.nav.about },
-    { href: '/pesquisa', label: t.nav.research },
-    { href: '/equipe', label: t.nav.team },
-    { href: '/projetos', label: t.nav.projects },
-    { href: '/galeria', label: t.nav.gallery },
-    { href: '/blog', label: t.nav.blog },
-    { href: '/publicacoes', label: t.nav.publications },
-    { href: '/parcerias', label: t.nav.partnerships },
-    { href: '/contato', label: t.nav.contact },
+    { href: '/', label: 'Início' },
+    { href: '/sobre', label: 'Sobre' },
+    { href: '/pesquisa', label: 'Pesquisa' },
+    { href: '/equipe', label: 'Equipe' },
+    { href: '/projetos', label: 'Projetos' },
+    { href: '/galeria', label: 'Galeria' },
+    { href: '/blog', label: 'Blog' },
+    { href: '/publicacoes', label: 'Publicações' },
+    { href: '/parcerias', label: 'Parcerias' },
+    { href: '/contato', label: 'Contato' },
   ]
 
   return (
@@ -52,12 +48,6 @@ export function Header() {
             ))}
           </nav>
 
-          {/* Desktop Actions */}
-          <div className="hidden lg:flex items-center gap-2">
-            <LanguageSwitcher />
-            <UserMenu />
-          </div>
-
           {/* Mobile Menu Button */}
           <Button
             variant="ghost"
@@ -83,10 +73,6 @@ export function Header() {
                   {item.label}
                 </Link>
               ))}
-              <div className="flex items-center gap-2 px-3 py-2">
-                <LanguageSwitcher />
-                <UserMenu />
-              </div>
             </div>
           </nav>
         )}

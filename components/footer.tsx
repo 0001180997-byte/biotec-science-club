@@ -59,7 +59,14 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <InstagramIcon className="h-4 w-4 text-primary flex-shrink-0" />
-                <span className="text-sm text-muted-foreground">@clubd.ciencias</span>
+                <a 
+                  href="https://instagram.com/clubd.ciencias" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                >
+                  @clubd.ciencias
+                </a>
               </li>
             </ul>
           </div>

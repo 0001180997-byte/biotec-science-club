@@ -1,0 +1,34 @@
+{
+  "mainPartners": [
+    {
+      "name": "UEMG - Unidade Ibirité",
+      "type": "Universidade",
+      "description": "Instituição sede do projeto, fornecendo infraestrutura, laboratórios e apoio institucional.",
+      "icon": "GraduationCap"
+    },
+    {
+      "name": "Secretaria Municipal de Educação de Ibirité",
+      "type": "Órgão Público",
+      "description": "Parceria que facilita a conexão com as escolas públicas municipais e viabiliza atividades nas instituições de ensino.",
+      "icon": "Building2"
+    },
+    {
+      "name": "Escolas Públicas",
+      "type": "Instituições de Ensino",
+      "description": "Parceria com diversas escolas da rede publica para desenvolvimento de atividades investigativas com estudantes.",
+      "icon": "School"
+    },
+    {
+      "name": "Fundação Hellena Antipoffh",
+      "type": "Laboratório",
+      "description": "yrext.",
+      "icon": "GraduationCap"
+    }
+  ],
+  "collaborators": [
+    "Universidade Estadual de Minas Gerais (UEMG)",
+    "FAPEMIG",
+    "CnPQ)",
+    "Outras"
+  ]
+}

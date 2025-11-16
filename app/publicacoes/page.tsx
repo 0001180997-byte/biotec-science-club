@@ -4,71 +4,11 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { FileText, ExternalLink, Calendar } from 'lucide-react'
+import publicationsData from '@/data/publications.json'
 
 export default function PublicacoesPage() {
-  const publications = [
-    {
-      title: 'Clubes de Ciências como Espaços de Formação Científica: Uma Análise da Experiência do BIOTEC',
-      authors: 'Silva, M.; Santos, J.; Costa, A.',
-      journal: 'Revista Brasileira de Ensino de Ciências',
-      year: '2023',
-      type: 'Artigo',
-      link: '#',
-    },
-    {
-      title: 'Atividades Investigativas no Ensino de Biologia: Relatos de uma Prática no Clube BIOTEC',
-      authors: 'Santos, J.; Lima, B.; Oliveira, C.',
-      journal: 'Encontro Nacional de Pesquisa em Educação em Ciências (ENPEC)',
-      year: '2023',
-      type: 'Anais',
-      link: '#',
-    },
-    {
-      title: 'Divulgação Científica em Tempos de Pandemia: Adaptações e Desafios',
-      authors: 'Silva, M.; Costa, A.',
-      journal: 'Ciência & Educação',
-      year: '2022',
-      type: 'Artigo',
-      link: '#',
-    },
-    {
-      title: 'Percepções de Estudantes sobre Clubes de Ciências: Um Estudo de Caso em Ibirité-MG',
-      authors: 'Costa, A.; Silva, M.; Santos, J.',
-      journal: 'Revista de Ensino de Biologia',
-      year: '2022',
-      type: 'Artigo',
-      link: '#',
-    },
-    {
-      title: 'Formação Continuada de Professores em Clubes de Ciências: Possibilidades e Desafios',
-      authors: 'Lima, B.; Santos, J.',
-      journal: 'Simpósio Nacional de Ensino de Ciências (SINEC)',
-      year: '2024',
-      type: 'Anais',
-      link: '#',
-    },
-  ]
-
-  const materials = [
-    {
-      title: 'Guia de Atividades Investigativas para Ensino Médio',
-      description: 'Material didático com 20 atividades práticas de investigação científica',
-      year: '2023',
-      type: 'Material Didático',
-    },
-    {
-      title: 'Manual de Microscopia Acessível',
-      description: 'Guia prático para ensino de microscopia com materiais de baixo custo',
-      year: '2023',
-      type: 'Manual',
-    },
-    {
-      title: 'Protocolo de Atividades Remotas em Clubes de Ciências',
-      description: 'Metodologia para realização de atividades científicas no formato virtual',
-      year: '2022',
-      type: 'Protocolo',
-    },
-  ]
+  const publications = publicationsData.academicPublications
+  const materials = publicationsData.educationalMaterials
 
   return (
     <div className="min-h-screen flex flex-col">

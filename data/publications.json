@@ -1,0 +1,42 @@
+{
+  "academicPublications": [
+    {
+      "title": "Clubes de Ciências como Espaços de Formação Científica: Uma Análise da Experiência do BIOTEC",
+      "authors": "Silva, M.; Santos, J.; Costa, A.",
+      "journal": "Revista Brasileira de Ensino de Ciências",
+      "year": "2023",
+      "type": "Artigo",
+      "link": "#"
+    },
+    {
+      "title": "Atividades Investigativas no Ensino de Biologia: Relatos de uma Prática no Clube BIOTEC",
+      "authors": "Santos, J.; Lima, B.; Oliveira, C.",
+      "journal": "Encontro Nacional de Pesquisa em Educação em Ciências (ENPEC)",
+      "year": "2023",
+      "type": "Anais",
+      "link": "#"
+    },
+    {
+      "title": "Divulgação Científica em Tempos de Pandemia: Adaptações e Desafios",
+      "authors": "Silva, M.; Costa, A.",
+      "journal": "Ciência & Educação",
+      "year": "2022",
+      "type": "Artigo",
+      "link": "#"
+    }
+  ],
+  "educationalMaterials": [
+    {
+      "title": "Guia de Atividades Investigativas para Ensino Médio",
+      "description": "Material didático com 20 atividades práticas de investigação científica",
+      "year": "2023",
+      "type": "Material Didático"
+    },
+    {
+      "title": "Manual de Microscopia Acessível",
+      "description": "Guia prático para ensino de microscopia com materiais de baixo custo",
+      "year": "2023",
+      "type": "Manual"
+    }
+  ]
+}

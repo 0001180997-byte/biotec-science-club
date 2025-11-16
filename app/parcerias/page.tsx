@@ -4,41 +4,21 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { Building2, GraduationCap, School, Users, ArrowRight } from 'lucide-react'
 import Link from 'next/link'
+import partnersData from '@/data/partners.json'
 
 export default function ParceriasPage() {
-  const partners = [
-    {
-      name: 'UEMG - Unidade Ibirité',
-      type: 'Universidade',
-      description: 'Instituição sede do projeto, fornecendo infraestrutura, laboratórios e apoio institucional.',
-      icon: GraduationCap,
-    },
-    {
-      name: 'Secretaria Municipal de Educação de Ibirité',
-      type: 'Órgão Público',
-      description: 'Parceria que facilita a conexão com as escolas públicas municipais e viabiliza atividades nas instituições de ensino.',
-      icon: Building2,
-    },
-    {
-      name: 'Escolas Públicas Estaduais de Ibirité',
-      type: 'Instituições de Ensino',
-      description: 'Parceria com diversas escolas da rede estadual para desenvolvimento de atividades investigativas com estudantes.',
-      icon: School,
-    },
-    {
-      name: 'Laboratório de Ensino de Ciências - UEMG',
-      type: 'Laboratório',
-      description: 'Colaboração no desenvolvimento de materiais didáticos e metodologias de ensino.',
-      icon: GraduationCap,
-    },
-  ]
+  const iconMap = {
+    GraduationCap,
+    Building2,
+    School,
+  }
 
-  const collaborators = [
-    'Universidade Federal de Minas Gerais (UFMG)',
-    'Centro de Ensino de Ciências e Matemática (CECIMIG)',
-    'Sociedade Brasileira para o Progresso da Ciência (SBPC)',
-    'Associação Brasileira de Ensino de Biologia (SBEnBio)',
-  ]
+  const partners = partnersData.mainPartners.map(partner => ({
+    ...partner,
+    icon: iconMap[partner.icon as keyof typeof iconMap] || Users
+  }))
+
+  const collaborators = partnersData.collaborators
 
   return (
     <div className="min-h-screen flex flex-col">
