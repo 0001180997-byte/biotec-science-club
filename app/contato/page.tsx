@@ -2,7 +2,7 @@ import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Mail, MapPin, Phone, Send } from 'lucide-react'
+import { Mail, MapPin, Instagram, Send } from 'lucide-react'
 
 export default function ContatoPage() {
   return (
@@ -158,15 +158,20 @@ export default function ContatoPage() {
                       <CardContent className="pt-6 pb-6">
                         <div className="flex items-start gap-4">
                           <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-chart-3/10 flex-shrink-0">
-                            <Phone className="h-6 w-6 text-chart-3" />
+                            <Instagram className="h-6 w-6 text-chart-3" />
                           </div>
                           <div>
-                            <h3 className="font-semibold mb-2">Telefone</h3>
-                            <a href="tel:+553135210000" className="text-primary hover:underline">
-                              xxxxxxx
+                            <h3 className="font-semibold mb-2">Instagram</h3>
+                            <a 
+                              href="https://instagram.com/clubd.ciencias" 
+                              target="_blank" 
+                              rel="noopener noreferrer" 
+                              className="text-primary hover:underline"
+                            >
+                              @clubd.ciencias
                             </a>
                             <p className="text-sm text-muted-foreground mt-1">
-                              {""}
+                              Siga-nos no Instagram
                             </p>
                           </div>
                         </div>
@@ -174,15 +179,17 @@ export default function ContatoPage() {
                     </Card>
                   </div>
                   
-                  {/* Map Placeholder */}
+                  {/* Real Google Maps iframe */}
                   <Card className="border-2">
-                    <CardContent className="p-0">
-                      <div className="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg flex items-center justify-center">
-                        <div className="text-center p-8">
-                          <MapPin className="h-12 w-12 text-primary mx-auto mb-4" />
-                          <p className="text-muted-foreground">Mapa da localização</p>
-                        </div>
-                      </div>
+                    <CardContent className="p-0 overflow-hidden rounded-lg">
+                      <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3748.8234662424943!2d-44.08750878927894!3d-20.015922540912097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6bf4c8c48590d%3A0x237b1f210f21a6d0!2sUniversidade%20do%20Estado%20de%20Minas%20Gerais%20-%20Unidade%20Ibirit%C3%A9!5e0!3m2!1spt-BR!2sbr!4v1763299435743!5m2!1spt-BR!2sbr" 
+                        className="w-full h-[300px] md:h-[400px] border-0"
+                        allowFullScreen
+                        loading="lazy" 
+                        referrerPolicy="no-referrer-when-downgrade"
+                        title="Localização UEMG Unidade Ibirité"
+                      />
                     </CardContent>
                   </Card>
                 </div>

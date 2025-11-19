@@ -1,3 +1,5 @@
+'use client'
+
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Button } from '@/components/ui/button'
@@ -5,6 +7,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { ArrowRight, Microscope, Users, BookOpen, AsteriskSquareIcon } from 'lucide-react'
 import Link from 'next/link'
 import homeData from '@/data/home.json'
+
 
 export default function HomePage() {
   const researchLines = {
@@ -39,14 +42,14 @@ export default function HomePage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       
-      <main className="flex-1">
+      <main className="flex-1" id="main-content">
         {/* Hero Section */}
         <section className="relative bg-gradient-to-br from-primary/10 via-background to-accent/5 py-20 md:py-32">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center space-y-8">
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
                 <AsteriskSquareIcon className="h-4 w-4" />
-                <span>{homeData.hero.badge}</span>
+                <span>Projeto de Extensão UEMG</span>
               </div>
               
               <h1 className="text-4xl md:text-6xl font-bold text-balance leading-tight">
@@ -60,7 +63,7 @@ export default function HomePage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
                 <Button asChild size="lg" className="text-base">
                   <Link href="/sobre">
-                    Conheça o Projeto
+                    Saiba Mais
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Link>
                 </Button>
@@ -129,10 +132,10 @@ export default function HomePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto bg-gradient-to-br from-primary to-accent rounded-2xl p-8 md:p-12 text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-4 text-primary-foreground">
-                Participe do BIOTEC
+                Junte-se a Nós
               </h2>
               <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-                Faça parte de nossa comunidade científica e ajude a transformar a educação
+                Faça parte do Clube de Ciências BIOTEC e contribua para a divulgação científica
               </p>
               <Button asChild size="lg" variant="secondary" className="text-base">
                 <Link href="/contato">

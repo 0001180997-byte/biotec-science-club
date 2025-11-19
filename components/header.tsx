@@ -2,8 +2,11 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { Menu, X, Microscope } from 'lucide-react'
+import Image from 'next/image'
+import { Menu, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { AccessibilityControls } from '@/components/accessibility-controls'
+
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -22,13 +25,21 @@ export function Header() {
   ]
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header 
+      className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+      role="banner"
+    >
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
-          <Link href="/" className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-              <Microscope className="h-6 w-6 text-primary-foreground" />
-            </div>
+          <Link href="/" className="flex items-center gap-3" aria-label="BIOTEC Clube de Ciências - Página inicial">
+            <Image 
+              src="/images/logo-biotec.png" 
+              alt="Logo BIOTEC Clube de Ciências" 
+              width={48} 
+              height={48}
+              className="h-12 w-12 object-contain"
+              priority
+            />
             <div className="flex flex-col">
               <span className="text-lg font-bold leading-none text-foreground">{"BIOTEC"}</span>
               <span className="text-xs text-muted-foreground">Clube de Ciências</span>
@@ -36,7 +47,7 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-1">
+          <nav className="hidden lg:flex items-center gap-1" aria-label="Navegação principal">
             {navItems.map((item) => (
               <Link
                 key={item.href}
@@ -46,22 +57,33 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
+            <AccessibilityControls />
           </nav>
 
           {/* Mobile Menu Button */}
-          <Button
-            variant="ghost"
-            size="icon"
-            className="lg:hidden"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </Button>
+          <div className="flex items-center gap-2 lg:hidden">
+            <AccessibilityControls />
+            <Button
+              variant="ghost"
+              size="icon"
+              className="lg:hidden"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
+              aria-expanded={isMenuOpen}
+              aria-controls="mobile-navigation"
+            >
+              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </Button>
+          </div>
         </div>
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="lg:hidden py-4 border-t border-border">
+          <nav 
+            className="lg:hidden py-4 border-t border-border" 
+            aria-label="Navegação principal mobile"
+            id="mobile-navigation"
+          >
             <div className="flex flex-col gap-2">
               {navItems.map((item) => (
                 <Link

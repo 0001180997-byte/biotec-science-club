@@ -1,5 +1,8 @@
+'use client'
+
 import Link from 'next/link'
 import { Microscope, Mail, MapPin, InstagramIcon } from 'lucide-react'
+
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -20,7 +23,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Promovendo a ciência de forma acessível e colaborativa desde 2019.
+              Projeto de pesquisa e extensão focado em divulgação científica e educação.
             </p>
           </div>
 
@@ -75,7 +78,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} Clube de Ciências BIOTEC - UEMG. Todos os direitos reservados.
+              © {currentYear} Clube de Ciências BIOTEC. Todos os direitos reservados.
             </p>
             <div className="flex gap-6">
               <Link href="/contato" className="text-sm text-muted-foreground hover:text-primary transition-colors">
