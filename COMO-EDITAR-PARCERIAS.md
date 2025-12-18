@@ -12,14 +12,14 @@ Este arquivo contém todos os parceiros e colaboradores do site.
 
 Encontre o parceiro em `mainPartners` e edite:
 
-\`\`\`json
+```json
 {
   "name": "Nome da Instituição",
   "type": "Tipo (Universidade, Órgão Público, etc)",
   "description": "Descrição da parceria",
   "icon": "GraduationCap"
 }
-\`\`\`
+```
 
 **Ícones disponíveis:**
 - `GraduationCap` - Para universidades/educação
@@ -30,7 +30,7 @@ Encontre o parceiro em `mainPartners` e edite:
 
 Copie um bloco completo e cole antes do `]`, não esqueça da vírgula:
 
-\`\`\`json
+```json
 {
   "mainPartners": [
     {
@@ -47,30 +47,30 @@ Copie um bloco completo e cole antes do `]`, não esqueça da vírgula:
     }
   ]
 }
-\`\`\`
+```
 
 ### Para Editar Colaboradores:
 
 Simplesmente edite o texto na lista `collaborators`:
 
-\`\`\`json
+```json
 "collaborators": [
   "Nome do Colaborador 1",
   "Nome do Colaborador 2",
   "Nome do Colaborador 3"
 ]
-\`\`\`
+```
 
 ### Para Adicionar um Novo Colaborador:
 
 Adicione uma nova linha na lista com vírgula:
 
-\`\`\`json
+```json
 "collaborators": [
   "Colaborador Existente",
   "NOVO COLABORADOR AQUI"
 ]
-\`\`\`
+```
 
 ### Para Remover:
 

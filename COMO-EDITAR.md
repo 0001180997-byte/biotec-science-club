@@ -11,7 +11,7 @@ Agora o site é **SUPER SIMPLES** de editar. Você não precisa de login, banco 
 Todos os arquivos de conteúdo estão na pasta **`data/`**:
 
 ### 1. **`data/home.json`** - Página Inicial
-\`\`\`json
+```json
 {
   "hero": {
     "badge": "UEMG",
@@ -26,7 +26,7 @@ Todos os arquivos de conteúdo estão na pasta **`data/`**:
     ]
   }
 }
-\`\`\`
+```
 
 **Como editar:**
 - Troque os textos entre aspas
@@ -35,7 +35,7 @@ Todos os arquivos de conteúdo estão na pasta **`data/`**:
 ---
 
 ### 2. **`data/team.json`** - Equipe
-\`\`\`json
+```json
 {
   "members": [
     {
@@ -46,7 +46,7 @@ Todos os arquivos de conteúdo estão na pasta **`data/`**:
     }
   ]
 }
-\`\`\`
+```
 
 **Como adicionar pessoas:**
 1. Copie o bloco entre `{ }` 
@@ -60,7 +60,7 @@ Todos os arquivos de conteúdo estão na pasta **`data/`**:
 ---
 
 ### 3. **`data/projects.json`** - Projetos
-\`\`\`json
+```json
 {
   "active": [
     {
@@ -73,7 +73,7 @@ Todos os arquivos de conteúdo estão na pasta **`data/`**:
   ],
   "completed": []
 }
-\`\`\`
+```
 
 **Como adicionar projeto:**
 1. Decida se é ativo (`"active"`) ou concluído (`"completed"`)
@@ -83,7 +83,7 @@ Todos os arquivos de conteúdo estão na pasta **`data/`**:
 ---
 
 ### 4. **`data/blog.json`** - Blog
-\`\`\`json
+```json
 {
   "posts": [
     {
@@ -97,7 +97,7 @@ Todos os arquivos de conteúdo estão na pasta **`data/`**:
     }
   ]
 }
-\`\`\`
+```
 
 **Como adicionar post:**
 1. Copie o bloco `{ }`
@@ -108,7 +108,7 @@ Todos os arquivos de conteúdo estão na pasta **`data/`**:
 ---
 
 ### 5. **`data/gallery.json`** - Galeria de Fotos
-\`\`\`json
+```json
 {
   "images": [
     {
@@ -118,7 +118,7 @@ Todos os arquivos de conteúdo estão na pasta **`data/`**:
     }
   ]
 }
-\`\`\`
+```
 
 **Como adicionar fotos:**
 1. Faça upload da foto em um site (Imgur, Google Drive público, etc.)

@@ -14,7 +14,7 @@
 
 **Exemplo de novo post:**
 
-\`\`\`json
+```json
 {
   "posts": [
     {
@@ -37,7 +37,7 @@
     }
   ]
 }
-\`\`\`
+```
 
 **Campos explicados:**
 - `id`: Número único para cada post (use o próximo número disponível)
@@ -62,7 +62,7 @@
 
 **Exemplo:**
 
-\`\`\`json
+```json
 {
   "academicPublications": [
     {
@@ -75,7 +75,7 @@
     }
   ]
 }
-\`\`\`
+```
 
 **Tipos aceitos:** "Artigo", "Anais", "Tese", "Dissertação"
 
@@ -87,7 +87,7 @@
 
 Na mesma arquivo, seção `"educationalMaterials"`:
 
-\`\`\`json
+```json
 {
   "educationalMaterials": [
     {
@@ -98,7 +98,7 @@ Na mesma arquivo, seção `"educationalMaterials"`:
     }
   ]
 }
-\`\`\`
+```
 
 **Tipos aceitos:** "Manual", "Material Didático", "Protocolo", "Guia"
 
@@ -108,7 +108,7 @@ Na mesma arquivo, seção `"educationalMaterials"`:
 
 **Arquivo:** `data/team.json`
 
-\`\`\`json
+```json
 {
   "members": [
     {
@@ -119,7 +119,7 @@ Na mesma arquivo, seção `"educationalMaterials"`:
     }
   ]
 }
-\`\`\`
+```
 
 ---
 
@@ -127,7 +127,7 @@ Na mesma arquivo, seção `"educationalMaterials"`:
 
 **Arquivo:** `data/projects.json`
 
-\`\`\`json
+```json
 {
   "projects": [
     {
@@ -141,7 +141,7 @@ Na mesma arquivo, seção `"educationalMaterials"`:
     }
   ]
 }
-\`\`\`
+```
 
 **Status aceitos:** "Em andamento", "Concluído", "Planejamento"
 **Categorias:** "Pesquisa", "Extensão", "Ensino"
@@ -152,7 +152,7 @@ Na mesma arquivo, seção `"educationalMaterials"`:
 
 **Arquivo:** `data/gallery.json`
 
-\`\`\`json
+```json
 {
   "images": [
     {
@@ -164,7 +164,7 @@ Na mesma arquivo, seção `"educationalMaterials"`:
     }
   ]
 }
-\`\`\`
+```
 
 **Categorias:** "eventos", "atividades", "equipe", "laboratorio"
 
@@ -174,7 +174,7 @@ Na mesma arquivo, seção `"educationalMaterials"`:
 
 **Arquivo:** `data/partners.json`
 
-\`\`\`json
+```json
 {
   "partners": [
     {
@@ -188,7 +188,7 @@ Na mesma arquivo, seção `"educationalMaterials"`:
     "Nome do Colaborador"
   ]
 }
-\`\`\`
+```
 
 ---
 
