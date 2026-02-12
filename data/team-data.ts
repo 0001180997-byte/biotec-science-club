@@ -9,10 +9,10 @@
 
 export const coordinators = [
   {
-    name: 'Profa. Dra. Maria Silva',
+    name: 'Profa. Dra. Fernanda Costa',
     role: 'Coordenadora',
-    description: 'Professora do curso de Licenciatura em Ciências Biológicas da UEMG. Especialista em Educação Científica.',
-    email: 'maria.silva@uemg.br',
+    description: 'Bióloga, Mestre em Ensino de Ciências e Doutora em Educação. Docente na área de Práticas e Metodologias do Ensino de Ciências e Biologia no Departamento de Ciências Biológicas (DCBio) da UEMG - Unidade Ibirité.',
+    email: 'xxx',
     linkedin: '#', // Coloque o link do LinkedIn aqui
     image: '/diverse-professor-lecturing.png', // Substitua com o caminho da foto real
   },
