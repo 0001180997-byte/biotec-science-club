@@ -27,7 +27,7 @@ export const coordinators = [
 ]
 
 export const researchers = [
-  { name: 'Ana Costa', role: 'Doutoranda em Educação', area: 'Atividades Investigativas', image: '/diverse-research-team.png' },
+  { name: 'Luisa Silva', role: 'Bolsista em Educação', area: 'Atividades Investigativas', image: '/diverse-research-team.png' },
   { name: 'Carlos Oliveira', role: 'Mestrando em Biologia', area: 'Divulgação Científica', image: '/diverse-research-team.png' },
   { name: 'Beatriz Lima', role: 'Mestranda em Ensino', area: 'Formação Continuada', image: '/diverse-research-team.png' },
   { name: 'Rafael Souza', role: 'Doutorando em Biologia', area: 'Pesquisa Experimental', image: '/diverse-research-team.png' },
