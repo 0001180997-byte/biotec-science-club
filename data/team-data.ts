@@ -13,15 +13,15 @@ export const coordinators = [
     role: 'Coordenadora',
     description: 'Bióloga, Mestre em Ensino de Ciências e Doutora em Educação. Docente na área de Práticas e Metodologias do Ensino de Ciências e Biologia no Departamento de Ciências Biológicas (DCBio) da UEMG - Unidade Ibirité.',
     email: 'xxx',
-    lattes: '#', // Coloque o link do Currículo Lattes aqui
+    lattes: 'http://lattes.cnpq.br/9387752688292084', // Coloque o link do Currículo Lattes aqui
     image: '/diverse-professor-lecturing.png', // Substitua com o caminho da foto real
   },
   {
-    name: 'Prof. Dr. João Santos',
-    role: 'Vice-Coordenador',
-    description: 'Professor e pesquisador em Biologia Molecular. Dedica-se à formação de jovens cientistas.',
-    email: 'joao.santos@uemg.br',
-    lattes: '#',
+    name: 'Prof. Dr. Silvia Sarvegnini',
+    role: 'Docente',
+    description: 'Fisioterapeuta, Mestre e Doutora em Fisiologia e Biofísica e possui Pós-doc em Fisiologia Cardiovascular e Hemodinâmica. É docente na área de Fisiologia Humana no Departamento de Ciências Biológicas (DCBio) da UEMG - Unidade Ibirité.',
+    email: 'xxx',
+    lattes: 'http://lattes.cnpq.br/9444858785437053',
     image: '/diverse-professor-lecturing.png',
   },
 ]
