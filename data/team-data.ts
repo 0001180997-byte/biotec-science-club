@@ -13,7 +13,7 @@ export const coordinators = [
     role: 'Coordenadora',
     description: 'Bióloga, Mestre em Ensino de Ciências e Doutora em Educação. Docente na área de Práticas e Metodologias do Ensino de Ciências e Biologia no Departamento de Ciências Biológicas (DCBio) da UEMG - Unidade Ibirité.',
     email: 'xxx',
-    linkedin: '#', // Coloque o link do LinkedIn aqui
+    lattes: '#', // Coloque o link do Currículo Lattes aqui
     image: '/diverse-professor-lecturing.png', // Substitua com o caminho da foto real
   },
   {
@@ -21,7 +21,7 @@ export const coordinators = [
     role: 'Vice-Coordenador',
     description: 'Professor e pesquisador em Biologia Molecular. Dedica-se à formação de jovens cientistas.',
     email: 'joao.santos@uemg.br',
-    linkedin: '#',
+    lattes: '#',
     image: '/diverse-professor-lecturing.png',
   },
 ]
