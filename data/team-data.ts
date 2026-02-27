@@ -9,25 +9,25 @@
 
 export const coordinators = [
   {
-    name: 'Profa. Dra. Maria Silva',
+    name: 'Profa. Dra. Fernanda Costa',
     role: 'Coordenadora',
-    description: 'Professora do curso de Licenciatura em Ciências Biológicas da UEMG. Especialista em Educação Científica.',
-    email: 'maria.silva@uemg.br',
-    linkedin: '#', // Coloque o link do LinkedIn aqui
+    description: 'Bióloga, Mestre em Ensino de Ciências e Doutora em Educação. Docente na área de Práticas e Metodologias do Ensino de Ciências e Biologia no Departamento de Ciências Biológicas (DCBio) da UEMG - Unidade Ibirité.',
+    email: 'xxx',
+    lattes: 'http://lattes.cnpq.br/9387752688292084', // Coloque o link do Currículo Lattes aqui
     image: '/diverse-professor-lecturing.png', // Substitua com o caminho da foto real
   },
   {
-    name: 'Prof. Dr. João Santos',
-    role: 'Vice-Coordenador',
-    description: 'Professor e pesquisador em Biologia Molecular. Dedica-se à formação de jovens cientistas.',
-    email: 'joao.santos@uemg.br',
-    linkedin: '#',
+    name: 'Prof. Dr. Silvia Sarvegnini',
+    role: 'Docente',
+    description: 'Fisioterapeuta, Mestre e Doutora em Fisiologia e Biofísica e possui Pós-doc em Fisiologia Cardiovascular e Hemodinâmica. É docente na área de Fisiologia Humana no Departamento de Ciências Biológicas (DCBio) da UEMG - Unidade Ibirité.',
+    email: 'xxx',
+    lattes: 'http://lattes.cnpq.br/9444858785437053',
     image: '/diverse-professor-lecturing.png',
   },
 ]
 
 export const researchers = [
-  { name: 'Ana Costa', role: 'Doutoranda em Educação', area: 'Atividades Investigativas', image: '/diverse-research-team.png' },
+  { name: 'Luisa Silva', role: 'Bolsista em Educação', area: 'Atividades Investigativas', image: '/diverse-research-team.png' },
   { name: 'Carlos Oliveira', role: 'Mestrando em Biologia', area: 'Divulgação Científica', image: '/diverse-research-team.png' },
   { name: 'Beatriz Lima', role: 'Mestranda em Ensino', area: 'Formação Continuada', image: '/diverse-research-team.png' },
   { name: 'Rafael Souza', role: 'Doutorando em Biologia', area: 'Pesquisa Experimental', image: '/diverse-research-team.png' },
