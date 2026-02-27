@@ -4,12 +4,36 @@
       "name": "Prof. Dr. Fernanda Costa",
       "role": "Coordenadora Geral",
       "bio": "Bióloga, Mestre em Ensino de Ciências e Doutora em Educação. Docente na área de Práticas e Metodologias do Ensino de Ciências e Biologia no Departamento de Ciências Biológicas (DCBio) da UEMG - Unidade Ibirité.",
-      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-Y5LOBmdrViqTSsdc59XqoosFGReaCQ.jpeg"
+      "image": "/placeholder.svg?height=200&width=200"
+    },
+    {
+      "name": "Profa. Dra. Silvia Sarvegnini",
+      "role": "Docente colaboradora",
+      "bio": "Fisioterapeuta, Mestre e Doutora em Fisiologia e Biofísica e possui Pós-doc em Fisiologia Cardiovascular e Hemodinâmica. É docente na área de Fisiologia Humana no Departamento de Ciências Biológicas (DCBio) da UEMG - Unidade Ibirité.",
+      "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-Y5LOBmdrViqTSsdc59XqoosFGReaCQ.jpe"
     },
     {
       "name": "Luisa Silva",
       "role": "Pesquisadora Bolsista",
-      "bio": "Bolsista de iniciação científica na área de biologia molecular e genética.",
+      "bio": "Bolsista de pesquisa do clube de ciências.",
+      "image": "/placeholder.svg?height=200&width=200"
+    },
+    {
+      "name": "Daniel Sousa",
+      "role": "Voluntario",
+      "bio": "ex Bolsista, voluntario a 5 anos .",
+      "image": "/placeholder.svg?height=200&width=200"
+    },
+    {
+      "name": "xx",
+      "role": "xx",
+      "bio": "xxx.",
+      "image": "/placeholder.svg?height=200&width=200"
+    },
+    {
+      "name": "xxx",
+      "role": "Voluntário",
+      "bio": "xxx.",
       "image": "/placeholder.svg?height=200&width=200"
     }
   ]
